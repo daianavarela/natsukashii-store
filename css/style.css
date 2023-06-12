@@ -221,9 +221,8 @@ nav ul {
 /*Background and hero*/
 /*-------------------*/
 
-.section1Background{
+.navbarBackground{
     background-color: #FDF4F5;
-    margin: 0px 0px 0px 0px;
 }
 
 .section2Background{
@@ -248,11 +247,11 @@ nav ul {
 
 .footerBackground{
     background-color: #DBDFEA;
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap; */
+    flex-wrap: nowrap; 
 
 }
 
@@ -269,6 +268,15 @@ footer section span{
     color: #6F84BB;
 }
 
+.centerContent{
+    display: flex;
+    align-items: start;
+}
+
+footer section div h6{
+    display: flex;
+    justify-content: center;
+}
 
 
 /*Footer images*/
