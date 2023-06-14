@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- Favicon -->
     <link rel="icon" type="image/vnd.microsoft.icon" href="../images/favicon.png">
     <!-- Title -->
@@ -22,7 +22,11 @@
 </head>
 
 
-<header class="sticky-top">
+
+
+<body>
+
+    <header class="sticky-top">
         <!-- Nav -->
         <nav class="navbar navbar-expand-lg d-flex justify-content-center" style="background-color: #8294C4;">
 
@@ -76,7 +80,7 @@
                     <div class="container-fluid row p-0">
                         <div class="col-lg-10 col-xxl-10 p-0">
                             <form class="d-flex" role="search">
-                                <input class="form-control me-2 " type="search" placeholder="Search"
+                                <input class="form-control me-2" type="search" placeholder="Search"
                                     aria-label="Search">
                                 <button class="btn btn-light" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="submit">Search</button> <!-- Cuarto elemento -->
                             </form>
@@ -96,20 +100,18 @@
 </header>
 
 
-<body>
-
-
     <main class="normalText">
         <section class="section1Background">
             <!-- Título -->
-            <h1 class="title1">Nuestros productos</h1>
-
+            <div class="d-flex align-items-center justify-content-center m-3 p-3">
+                <h1 class="title1">Nuestros productos</h1>
+            </div>
             <!-- Mangas -->
             <!-- Cards -->
-            <div class="container-fluid row">
-                <div class="card col-md-3" style="width: 18rem;"> <!-- Agregar cols-->
+            <div class="container-fluid row d-flex align-items-center justify-content-center">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;"> <!-- Agregar cols-->
                     <a href="mangas/20th-century-boys.html">
-                        <img src="../images/20thcenturyboys1.jpg" alt="Tapa del manga de 20th Century Boys"
+                        <img class="rounded" src="../images/20thcenturyboys1.jpg" alt="Tapa del manga de 20th Century Boys"
                             style="width: 18rem;">
                     </a>
                     <div class="card-body">
@@ -120,9 +122,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/gokushufudo.html">
-                        <img src="../images/gokushufudo1.jpg" alt="Tapa del manga de Gokushufudo" style="width: 18rem;">
+                        <img class="rounded" src="../images/gokushufudo1.jpg" alt="Tapa del manga de Gokushufudo" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Gokushufudo</h5>
@@ -132,9 +134,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/inuyasha.html">
-                        <img src="../images/inuyasha1.jpg" alt="Tapa del manga de Inuyasha" style="width: 18rem;">
+                        <img class="rounded" src="../images/inuyasha1.jpg" alt="Tapa del manga de Inuyasha" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Inuyasha</h5>
@@ -144,9 +146,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/jojos-bizarre-adventures.html">
-                        <img src="../images/jojos1.jpg" alt="Tapa del manga de JoJo's Bizarre Adventure"
+                        <img class="rounded" src="../images/jojos1.jpg" alt="Tapa del manga de JoJo's Bizarre Adventure"
                             style="width: 18rem;">
                     </a>
                     <div class="card-body">
@@ -157,9 +159,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/one-piece.html">
-                        <img src="../images/onepiece1.jpg" alt="Tapa del manga de One Piece" style="width: 18rem;">
+                        <img class="rounded" src="../images/onepiece1.jpg" alt="Tapa del manga de One Piece" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">One Piece</h5>
@@ -169,9 +171,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/ranma.html">
-                        <img src="../images/ranma1.jpg" alt="Tapa del manga de Ranma 1/2" style="width: 18rem;">
+                        <img class="rounded" src="../images/ranma1.jpg" alt="Tapa del manga de Ranma 1/2" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Ranma 1/2</h5>
@@ -181,9 +183,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/sensor.html">
-                        <img src="../images/sensor.jpg" alt="Tapa del manga de Sensor" style="width: 18rem;">
+                        <img class="rounded" src="../images/sensor.jpg" alt="Tapa del manga de Sensor" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Sensor</h5>
@@ -193,9 +195,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/shaman-king.html">
-                        <img src="../images/shamanking1.jpg" alt="Tapa del manga de Shaman King" style="width: 18rem;">
+                        <img class="rounded" src="../images/shamanking1.jpg" alt="Tapa del manga de Shaman King" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Shaman King</h5>
@@ -205,9 +207,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/slam-dunk.html">
-                        <img src="../images/slamdunk1.jpg" alt="Tapa del manga de Slam Dunk" style="width: 18rem;">
+                        <img class="rounded" src="../images/slamdunk1.jpg" alt="Tapa del manga de Slam Dunk" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Slam Dunk</h5>
@@ -217,9 +219,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/spy-family.html">
-                        <img src="../images/spyxfamily1.jpg" alt="Tapa del manga de SpyxFamily" style="width: 18rem;">
+                        <img class="rounded" src="../images/spyxfamily1.jpg" alt="Tapa del manga de SpyxFamily" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">SpyxFamily</h5>
@@ -229,9 +231,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/the-promised-neverland.html">
-                        <img src="../images/thepromisedneverland1.jpg" alt="Tapa del manga de The Promised Neverland"
+                        <img class="rounded" src="../images/thepromisedneverland1.jpg" alt="Tapa del manga de The Promised Neverland"
                             style="width: 18rem;">
                     </a>
                     <div class="card-body">
@@ -242,9 +244,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/tomie.html">
-                        <img src="../images/tomie1.jpg" alt="Tapa del manga de Tomie" style="width: 18rem;">
+                        <img class="rounded" src="../images/tomie1.jpg" alt="Tapa del manga de Tomie" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Tomie</h5>
@@ -254,9 +256,9 @@
                     </div>
                 </div>
 
-                <div class="card col-md-3" style="width: 18rem;">
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/uzumaki.html">
-                        <img src="../images/uzumaki.jpg" alt="Tapa del manga de Uzumaki" style="width: 18rem;">
+                        <img class="rounded" src="../images/uzumaki.jpg" alt="Tapa del manga de Uzumaki" style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Uzumaki</h5>
@@ -266,97 +268,160 @@
                     </div>
                 </div>
 
+
             </div>
 
+            <!-- Paginator -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center m-3 p-2">
+                  <li class="page-item disabled">
+                    <a class="page-link disabled" href="#" tabindex="-1">Anterior</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item">
+                    <a class="page-link disabled" href="#">Siguiente</a>
+                  </li>
+                </ul>
+              </nav>
         </section>
     </main>
 
-    <footer class="footerBackground normalText">
-        <section>
-            <ul>
-                <h3>MÁS INFORMACIÓN</h3>
-                <li>
-                    <a class="linksVisual" href="../pages/como-comprar.html">Cómo comprar</a>
-                </li>
-                <li>
-                    <a class="linksVisual" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
-                </li>
-                <li>
-                    <a class="linksVisual" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
-                </li>
-            </ul>
+    <footer>
+        <div class="container-fluid row d-flex align-items-center justify-content-center col-xxl-12 bg-yellow">
+
+            
+        
+        <!-- Más información | Section 1 -->
+        <section class="d-flex align-items-center row col-xxl-4 order-0">
+            
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <p>MÁS INFORMACIÓN</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <ul>
+                    <li>
+                        <a class="linksVisual" href="../pages/como-comprar.html">Cómo comprar</a>
+                    </li>
+                    <li>
+                        <a class="linksVisual" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                    </li>
+                    <li>
+                        <a class="linksVisual" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </section> 
+        
+
+        <!-- Contactanos | Section 2 -->
+        <section class="d-flex align-items-center row col-xxl-4 order-3">
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <p>CONTACTANOS</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12"  style="width: 20rem;">
+                info@natsukashii.com
+            </div> 
         </section>
+         
 
-        <section>
-            <h3>CONTACTANOS</h3>
-            info@natsukashii.com
+        <!-- Medios de pago | Section 3 -->
+        <section class="d-flex align-items-center row col-xxl-4 order-1">
+            
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <p>MEDIOS DE PAGO</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <a class="linksVisual" href="http://www.visa.com"> 
+                    <img class="smallFooterCards" src="../icons/visa.png" alt="Pagar con VISA">
+                </a>
+                <a class="linksVisual" href="http://www.mastercard.com"> 
+                    <img class="smallFooterCards" src="../icons/mastercard.png" alt="Pagar con Mastercard">
+                </a>
+                <a class="linksVisual" href="http://www.banelco.com"> 
+                    <img class="smallFooterCards" src="../icons/banelco.png" alt="Pagar con Banelco">
+                </a>
+                <a class="linksVisual" href="http://www.americanexpress.com"> 
+                    <img class="smallFooterCards" src="../icons/american-express.png" alt="Pagar con American Express">
+                </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12"  style="width: 20rem;">
+                <a class="linksVisual" href="http://www.mercadopago.com"> 
+                    <img class="smallFooterCards" src="../icons/mercadopago.png" alt="Pagar con Mercado Pago">
+                </a>
+                <a class="linksVisual" href="http://www.pagofacil.com.ar">
+                    <img class="smallFooterCards" src="../icons/pagofacil.png" alt="Pagar con Pago Fácil">
+                </a>
+                <a class="linksVisual" href="http://www.rapipago.com.ar"> 
+                    <img class="smallFooterCards" src="../icons/rapipago.png" alt="Pagar con Rapipago">
+                </a>
+                <a class="linksVisual" href="http://www.tarjetashopping.com"> 
+                    <img class="smallFooterCards" src="../icons/tarjeta-shopping.png" alt="Pagar con Tarjeta Shopping">
+                </a>
+            </div>
         </section>
+        
 
-        <section>
-            <h3>MEDIOS DE PAGO</h3>
-            <br>
-            <a class="linksVisual" href="http://www.visa.com">
-                <img class="smallFooterCards" src="../icons/visa.png" alt="Pagar con VISA">
-            </a>
-            <a class="linksVisual" href="http://www.mastercard.com">
-                <img class="smallFooterCards" src="../icons/mastercard.png" alt="Pagar con Mastercard">
-            </a>
-            <a class="linksVisual" href="http://www.banelco.com">
-                <img class="smallFooterCards" src="../icons/banelco.png" alt="Pagar con Banelco">
-            </a>
-            <a class="linksVisual" href="http://www.americanexpress.com">
-                <img class="smallFooterCards" src="../icons/american-express.png" alt="Pagar con American Express">
-            </a>
-            <br>
-            <a class="linksVisual" href="http://www.mercadopago.com">
-                <img class="smallFooterCards" src="../icons/mercadopago.png" alt="Pagar con Mercado Pago">
-            </a>
-            <a class="linksVisual" href="http://www.pagofacil.com.ar">
-                <img class="smallFooterCards" src="../icons/pagofacil.png" alt="Pagar con Pago Fácil">
-            </a>
-            <a class="linksVisual" href="http://www.pagofacil.com.ar">
-                <img class="smallFooterCards" src="../icons/rapipago.png" alt="Pagar con Rapipago">
-            </a>
-            <a class="linksVisual" href="http://www.tarjetashopping.com">
-                <img class="smallFooterCards" src="../icons/tarjeta-shopping.png" alt="Pagar con Tarjeta Shopping">
-            </a>
+        <!-- Formas de envío | Section 4 -->
+        <section class="d-flex align-items-center row col-xxl-4 order-4">
+             
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <p>FORMAS DE ENVÍO</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <a class="linksVisual" href="http://www.oca.com.ar"> 
+                    <img class="smallFooterShipCards" src="../icons/oca.png" alt="Envío por OCA">
+                </a>
+                <a class="linksVisual" href="http://www.andreani.com">
+                    <img class="smallFooterShipCards" src="../icons/andreani.png" alt="Envío por Andreani">
+                </a>
+            </div>    
         </section>
+        
 
-        <section>
-            <h3>FORMAS DE ENVÍO</h3>
-            <a class="linksVisual" href="http://www.oca.com.ar">
-                <img class="smallFooterShipCards" src="../icons/oca.png" alt="Envío por OCA">
-            </a>
-            <a class="linksVisual" href="http://www.andreani.com">
-                <img class="smallFooterShipCards" src="../icons/andreani.png" alt="Envío por Andreani">
-            </a>
+        <!-- Nuestras redes | Section 5 -->
+        <section class="d-flex align-items-center row col-xxl-4 order-2">
+            
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <p>NUESTRAS REDES</p>
+            </div>
 
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <a class="linksVisual" href="http://www.instagram.com"> 
+                    
+                    <img src="../icons/instagram.svg" alt="Cuenta de Instagram">
+                </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <a class="linksVisual" href="https://www.facebook.com/profile.php?id=100092744701682">
+                    <img src="../icons/facebook.svg" alt="Cuenta de Facebook">
+                </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <a class="linksVisual" href="http://www.twitter.com">
+                    <img src="../icons/twitter.svg" alt="Cuenta de Twitter">
+                </a>
+            </div>
         </section>
+        
 
-        <section>
-            <h3>NUESTRAS REDES</h3>
-            <!-- Instagram -->
-            <a class="linksVisual" href="http://www.instagram.com">
-                <img src="../icons/instagram.svg" alt="Cuenta de Instagram">
-            </a>
-
-            <!-- Facebook -->
-            <a class="linksVisual" href="https://www.facebook.com/profile.php?id=100092744701682">
-                <img src="../icons/facebook.svg" alt="Cuenta de Facebook">
-            </a>
-            <!-- Twitter -->
-            <a class="linksVisual" href="http://www.twitter.com">
-                <img src="../icons/twitter.svg" alt="Cuenta de Twitter">
-            </a>
-        </section>
-
-        <section>
-            <h3>DATA FISCAL</h3>
-            <img class="smallFooterImg" src="../icons/fiscal.png" alt="Data fiscal">
-        </section>
-
-        <!-- Copyright -->
-        <h5>© Natsukashii Manga Store - 2023 | Todos los derechos reservados</h5>
+        <!-- Data fiscal | Section 6 -->
+        <section class="d-flex align-items-center row col-xxl-4 order-5">
+            
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <p>DATA FISCAL</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <img class="smallFooterImg" src="../icons/fiscal.png" alt="Data fiscal">
+            </div>
+        </section> 
+        
+        </div>
+        
+        <!-- Copyright | Section 7 -->
+        <div class="d-flex align-items-center justify-content-center col-xxl-12 bg-dark text-white">
+            <p>© Natsukashii Manga Store - 2023 | Todos los derechos reservados</p>
+        </div>
+                
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

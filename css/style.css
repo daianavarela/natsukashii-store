@@ -128,12 +128,12 @@ nav ul {
     font-size: 42px;
     font-weight: bold;
     color: #6F84BB;
-    padding-top: 5%;
+    /* padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
     margin-right: 25%;
     margin-left: 15%;
-    text-align: left;
+    text-align: left; */
 }
 
 .title2{
@@ -244,8 +244,19 @@ nav ul {
 /*-------------------*/
 /*-Estilos de footer-*/
 /*-------------------*/
+footer p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8294C4;
+}
 
-.footerBackground{
+.bg-yellow {
+    background-color: rgb(219, 223, 234)    ;
+}
+
+
+/* .footerBackground{
     background-color: #DBDFEA;
     display: flex;
     flex-direction: row;
@@ -276,7 +287,7 @@ footer section span{
 footer section div h6{
     display: flex;
     justify-content: center;
-}
+} */
 
 
 /*Footer images*/
@@ -299,11 +310,10 @@ footer section div h6{
 /*-------------------*/
 /*----Grid footer----*/
 /*-------------------*/
-
+/* 
 .gridContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: repeat(2, 1fr) 3fr; */
     grid-template-rows: 3fr 3fr;
     grid-template-areas: 
     'masInformacion mediosDePago nuestrasRedes'
@@ -341,7 +351,7 @@ footer section div h6{
 
 #copyright{
     grid-area: copyright;
-}
+} */
 
 
 /*-------------------*/
@@ -365,9 +375,3 @@ footer section div h6{
 
 /*-------------------*/
 /*-------------------*/
-
-
-
-
-
-
