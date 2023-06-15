@@ -24,31 +24,26 @@
 
 
 
-<body>
+<body class="background">
 
     <header class="sticky-top">
         <!-- Nav -->
-        <nav class="navbar navbar-expand-lg d-flex justify-content-center" style="background-color: #8294C4;">
+        <nav class="navbar navbar-expand-xl d-flex justify-content-center" style="background-color: #8294C4;">
 
-            <div class="container-fluid row">
-                <!-- IMAGEN NATSUKASHII -->
-                <!-- Primer elemento -->
-                <div class="m-0 p-0 col-sm-2 col-md-3 col-lg-3 col-xxl-2"> 
-                    <div class="d-flex align-items-start m-0">
-                        <a class="navbar-brand text-light d-flex align-items-center" href="../index.html">
-                            <img class="p-1" src="../images/japanese-flower-vector2.png" alt="Natsukashii logo" width="32" height="28">
-                            Natsukashii Store
-                        </a>
-                    </div>    
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <div class="container-fluid col-xl-2">
+                <a class="navbar-brand text-light d-flex align-items-center" href="../index.html">
+                    <img class="p-1" src="../images/japanese-flower-vector2.png" alt="Natsukashii logo" width="32" height="28">
+                    Natsukashii Store
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <!-- NAV BAR -->
-                <!-- Segundo elemento -->
-                <div class="collapse navbar-collapse col-sm-6 col-md-5 col-lg-5 col-xxl-7 d-flex align-items-center justify-content-center" id="navbarSupportedContent">
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse col-xl-10" id="navbarSupportedContent">
+                <div class="container-fluid d-flex align-items-center justify-content-xl-center justify-content-start col-xl-9" >
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
@@ -74,34 +69,23 @@
                         </li>
                     </ul>
                 </div>
-                <!-- SEARCH BOX -->
-                <!-- Tercer elemento -->
-                <div class="col-sm-4 col-md-4 col-lg-3 col-xxl-3 d-flex align-items-center justify-content-end p-0">
-                    <div class="container-fluid row p-0">
-                        <div class="col-lg-10 col-xxl-10 p-0">
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search"
-                                    aria-label="Search">
-                                <button class="btn btn-light" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="submit">Search</button> <!-- Cuarto elemento -->
-                            </form>
-                        </div>
-                        
-                        <!-- Cart -->
-                        <!-- Quinto elemento -->
-                        <div class="m-0 p-0 d-flex align-items-center justify-content-center col-lg-2 col-xxl-2">
-                            <img src="../icons/cart-fill.svg" alt="Carrito">
-                        </div>
-                    </div>
-                    
+                <div class="container-fluid d-flex align-items-center justify-content-xl-center justify-content-start col-xl-3 gap-2" >
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-light" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="submit">Search</button> <!-- Cuarto elemento -->
+                    </form>
+
+                    <img src="../icons/cart-fill.svg" alt="Carrito">
                 </div>
             </div>
         </nav>
 
-</header>
+    </header>
 
 
     <main class="normalText">
-        <section class="section1Background">
+        <section>
             <!-- Título -->
             <div class="d-flex align-items-center justify-content-center m-3 p-3">
                 <h1 class="title1">Nuestros productos</h1>
@@ -109,7 +93,7 @@
             <!-- Mangas -->
             <!-- Cards -->
             <div class="container-fluid row d-flex align-items-center justify-content-center">
-                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;"> <!-- Agregar cols-->
+                <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/20th-century-boys.html">
                         <img class="rounded" src="../images/20thcenturyboys1.jpg" alt="Tapa del manga de 20th Century Boys"
                             style="width: 18rem;">
@@ -136,7 +120,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/inuyasha.html">
-                        <img class="rounded" src="../images/inuyasha1.jpg" alt="Tapa del manga de Inuyasha" style="width: 18rem;">
+                        <img class="rounded" src="../images/inuyasha1.jpg" alt="Tapa del manga de Inuyasha" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Inuyasha</h5>
@@ -148,8 +133,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/jojos-bizarre-adventures.html">
-                        <img class="rounded" src="../images/jojos1.jpg" alt="Tapa del manga de JoJo's Bizarre Adventure"
-                            style="width: 18rem;">
+                        <img class="rounded" src="../images/jojos1.jpg" alt="Tapa del manga de JoJo's Bizarre Adventure" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">JoJo's Bizarre Adventure</h5>
@@ -161,7 +146,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/one-piece.html">
-                        <img class="rounded" src="../images/onepiece1.jpg" alt="Tapa del manga de One Piece" style="width: 18rem;">
+                        <img class="rounded" src="../images/onepiece1.jpg" alt="Tapa del manga de One Piece" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">One Piece</h5>
@@ -173,7 +159,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/ranma.html">
-                        <img class="rounded" src="../images/ranma1.jpg" alt="Tapa del manga de Ranma 1/2" style="width: 18rem;">
+                        <img class="rounded" src="../images/ranma1.jpg" alt="Tapa del manga de Ranma 1/2" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Ranma 1/2</h5>
@@ -185,7 +172,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/sensor.html">
-                        <img class="rounded" src="../images/sensor.jpg" alt="Tapa del manga de Sensor" style="width: 18rem;">
+                        <img class="rounded" src="../images/sensor.jpg" alt="Tapa del manga de Sensor" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Sensor</h5>
@@ -197,7 +185,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/shaman-king.html">
-                        <img class="rounded" src="../images/shamanking1.jpg" alt="Tapa del manga de Shaman King" style="width: 18rem;">
+                        <img class="rounded" src="../images/shamanking1.jpg" alt="Tapa del manga de Shaman King" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Shaman King</h5>
@@ -209,7 +198,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/slam-dunk.html">
-                        <img class="rounded" src="../images/slamdunk1.jpg" alt="Tapa del manga de Slam Dunk" style="width: 18rem;">
+                        <img class="rounded" src="../images/slamdunk1.jpg" alt="Tapa del manga de Slam Dunk" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Slam Dunk</h5>
@@ -221,7 +211,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/spy-family.html">
-                        <img class="rounded" src="../images/spyxfamily1.jpg" alt="Tapa del manga de SpyxFamily" style="width: 18rem;">
+                        <img class="rounded" src="../images/spyxfamily1.jpg" alt="Tapa del manga de SpyxFamily" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">SpyxFamily</h5>
@@ -246,7 +237,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/tomie.html">
-                        <img class="rounded" src="../images/tomie1.jpg" alt="Tapa del manga de Tomie" style="width: 18rem;">
+                        <img class="rounded" src="../images/tomie1.jpg" alt="Tapa del manga de Tomie" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Tomie</h5>
@@ -258,7 +250,8 @@
 
                 <div class="card m-2 p-2 col-md-3" style="width: 19.2rem;">
                     <a href="mangas/uzumaki.html">
-                        <img class="rounded" src="../images/uzumaki.jpg" alt="Tapa del manga de Uzumaki" style="width: 18rem;">
+                        <img class="rounded" src="../images/uzumaki.jpg" alt="Tapa del manga de Uzumaki" 
+                        style="width: 18rem;">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">Uzumaki</h5>
@@ -272,7 +265,7 @@
             </div>
 
             <!-- Paginator -->
-            <nav aria-label="Page navigation example">
+            <nav class="d-flex align-items-center justify-content-center m-2" aria-label="Page navigation example">
                 <ul class="pagination justify-content-center m-3 p-2">
                   <li class="page-item disabled">
                     <a class="page-link disabled" href="#" tabindex="-1">Anterior</a>
@@ -286,140 +279,142 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container-fluid row d-flex align-items-center justify-content-center col-xxl-12 bg-yellow">
+    <footer class="footer">
+        <div class="container-fluid row d-flex align-items-start justify-content-center col-xxl-auto m-3 p-2">
 
+            <!-- Más información | Section 1 -->
+            <section class="d-flex align-items-center justify-content-center row col-xxl-4 order-0 p-2">
+                
+                <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                    <p class="d-flex align-items-center justify-content-center m-2">MÁS INFORMACIÓN</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                    <ul class="list">
+                        <li>
+                            <a class="linksVisual" href="../pages/como-comprar.html">Cómo comprar</a>
+                        </li>
+                        <li>
+                            <a class="linksVisual" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
+                        </li>
+                        <li>
+                            <a class="linksVisual" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </section> 
+        
+
+            <!-- Contactanos | Section 2 -->
+            <section class="d-flex align-items-center justify-content-center row col-xxl-4 order-3 p-2">
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <p class="d-flex align-items-center justify-content-center m-2">CONTACTANOS</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    info@natsukashii.com
+                </div> 
+            </section>
             
+
+            <!-- Medios de pago | Section 3 -->
+            <section class="d-flex align-items-center justify-content-center row col-xxl-4 order-1 p-2">
+                
+                <div class="d-flex align-items-center justify-content-center col-xxl-12 m-0">
+                    <p class="d-flex align-items-center justify-content-center m-2">MEDIOS DE PAGO</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <div class="m-1">
+                        <a class="linksVisual" href="http://www.visa.com"> 
+                            <img class="smallFooterCards rounded" src="../icons/visa.png" alt="Pagar con VISA">
+                        </a>
+                    </div>
+                    <div class="m-1">
+                        <a class="linksVisual" href="http://www.mastercard.com"> 
+                            <img class="smallFooterCards rounded" src="../icons/mastercard.png" alt="Pagar con Mastercard">
+                        </a>
+                    </div>
+                    <div class="m-1">    
+                        <a class="linksVisual" href="http://www.banelco.com"> 
+                            <img class="smallFooterCards rounded" src="../icons/banelco.png" alt="Pagar con Banelco">
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <div class="m-1">    
+                        <a class="linksVisual" href="http://www.mercadopago.com"> 
+                            <img class="smallFooterCards rounded" src="../icons/mercadopago.png" alt="Pagar con Mercado Pago">
+                        </a>
+                    </div>
+                    <div class="m-1">
+                        <a class="linksVisual" href="http://www.pagofacil.com.ar">
+                            <img class="smallFooterCards rounded" src="../icons/pagofacil.png" alt="Pagar con Pago Fácil">
+                        </a>
+                    </div>
+                    <div class="m-1">
+                        <a class="linksVisual" href="http://www.rapipago.com.ar"> 
+                            <img class="smallFooterCards rounded" src="../icons/rapipago.png" alt="Pagar con Rapipago">
+                        </a>
+                    </div>
+                </div>
+            </section>
         
-        <!-- Más información | Section 1 -->
-        <section class="d-flex align-items-center row col-xxl-4 order-0">
+
+            <!-- Formas de envío | Section 4 -->
+            <section class="d-flex align-items-center justify-content-center row col-xxl-4 order-4 p-2">
+                
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <p class= "d-flex align-items-center justify-content-center m-2">FORMAS DE ENVÍO</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <div class="m-1">    
+                        <a class="linksVisual" href="http://www.oca.com.ar"> 
+                            <img class="smallFooterShipCards rounded" src="../icons/oca.png" alt="Envío por OCA">
+                        </a>
+                    </div>
+                    <div class="m-1">    
+                        <a class="linksVisual" href="http://www.andreani.com">
+                            <img class="smallFooterShipCards rounded" src="../icons/andreani.png" alt="Envío por Andreani">
+                        </a>
+                    </div>    
+                </div>    
+            </section>
             
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <p>MÁS INFORMACIÓN</p>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <ul>
-                    <li>
-                        <a class="linksVisual" href="../pages/como-comprar.html">Cómo comprar</a>
-                    </li>
-                    <li>
-                        <a class="linksVisual" href="../pages/preguntas-frecuentes.html">Preguntas frecuentes</a>
-                    </li>
-                    <li>
-                        <a class="linksVisual" href="../pages/sobre-nosotros.html">Sobre nosotros</a>
-                    </li>
-                </ul>
-            </div>
-        </section> 
-        
 
-        <!-- Contactanos | Section 2 -->
-        <section class="d-flex align-items-center row col-xxl-4 order-3">
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <p>CONTACTANOS</p>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12"  style="width: 20rem;">
-                info@natsukashii.com
-            </div> 
-        </section>
-         
+            <!-- Nuestras redes | Section 5 -->
+            <section class="d-flex align-items-center justify-content-center row col-xxl-4 order-2 p-2">
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <p class="d-flex m-2">NUESTRAS REDES</p>
+                </div>
 
-        <!-- Medios de pago | Section 3 -->
-        <section class="d-flex align-items-center row col-xxl-4 order-1">
+                <div class="d-flex align-items-center justify-content-center col-xxl-4 p-0 gap-3">
+                    <a class="linksVisual" href="http://www.instagram.com/natsukashii_store"> 
+                        <img src="../icons/instagram.svg" alt="Cuenta de Instagram">
+                    </a>
+                    <a class="linksVisual" href="https://www.facebook.com/profile.php?id=100092744701682">
+                        <img src="../icons/facebook.svg" alt="Cuenta de Facebook">
+                    </a>
+                    <a class="linksVisual" href="http://www.twitter.com/natsukashii_store">
+                        <img src="../icons/twitter.svg" alt="Cuenta de Twitter">
+                    </a>
+                </div>
+
+            </section>
             
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <p>MEDIOS DE PAGO</p>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <a class="linksVisual" href="http://www.visa.com"> 
-                    <img class="smallFooterCards" src="../icons/visa.png" alt="Pagar con VISA">
-                </a>
-                <a class="linksVisual" href="http://www.mastercard.com"> 
-                    <img class="smallFooterCards" src="../icons/mastercard.png" alt="Pagar con Mastercard">
-                </a>
-                <a class="linksVisual" href="http://www.banelco.com"> 
-                    <img class="smallFooterCards" src="../icons/banelco.png" alt="Pagar con Banelco">
-                </a>
-                <a class="linksVisual" href="http://www.americanexpress.com"> 
-                    <img class="smallFooterCards" src="../icons/american-express.png" alt="Pagar con American Express">
-                </a>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12"  style="width: 20rem;">
-                <a class="linksVisual" href="http://www.mercadopago.com"> 
-                    <img class="smallFooterCards" src="../icons/mercadopago.png" alt="Pagar con Mercado Pago">
-                </a>
-                <a class="linksVisual" href="http://www.pagofacil.com.ar">
-                    <img class="smallFooterCards" src="../icons/pagofacil.png" alt="Pagar con Pago Fácil">
-                </a>
-                <a class="linksVisual" href="http://www.rapipago.com.ar"> 
-                    <img class="smallFooterCards" src="../icons/rapipago.png" alt="Pagar con Rapipago">
-                </a>
-                <a class="linksVisual" href="http://www.tarjetashopping.com"> 
-                    <img class="smallFooterCards" src="../icons/tarjeta-shopping.png" alt="Pagar con Tarjeta Shopping">
-                </a>
-            </div>
-        </section>
-        
 
-        <!-- Formas de envío | Section 4 -->
-        <section class="d-flex align-items-center row col-xxl-4 order-4">
-             
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <p>FORMAS DE ENVÍO</p>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <a class="linksVisual" href="http://www.oca.com.ar"> 
-                    <img class="smallFooterShipCards" src="../icons/oca.png" alt="Envío por OCA">
-                </a>
-                <a class="linksVisual" href="http://www.andreani.com">
-                    <img class="smallFooterShipCards" src="../icons/andreani.png" alt="Envío por Andreani">
-                </a>
-            </div>    
-        </section>
-        
-
-        <!-- Nuestras redes | Section 5 -->
-        <section class="d-flex align-items-center row col-xxl-4 order-2">
+            <!-- Data fiscal | Section 6 -->
+            <section class="d-flex align-items-start justify-content-center row col-xxl-4 order-5 p-2">
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <p class="d-flex align-items-center justify-content-center m-2" s>DATA FISCAL</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
+                    <img class="smallFooterImg" src="../icons/fiscal.png" alt="Data fiscal">
+                </div>
+            </section> 
             
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <p>NUESTRAS REDES</p>
-            </div>
-
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <a class="linksVisual" href="http://www.instagram.com"> 
-                    
-                    <img src="../icons/instagram.svg" alt="Cuenta de Instagram">
-                </a>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <a class="linksVisual" href="https://www.facebook.com/profile.php?id=100092744701682">
-                    <img src="../icons/facebook.svg" alt="Cuenta de Facebook">
-                </a>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <a class="linksVisual" href="http://www.twitter.com">
-                    <img src="../icons/twitter.svg" alt="Cuenta de Twitter">
-                </a>
-            </div>
-        </section>
-        
-
-        <!-- Data fiscal | Section 6 -->
-        <section class="d-flex align-items-center row col-xxl-4 order-5">
-            
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <p>DATA FISCAL</p>
-            </div>
-            <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
-                <img class="smallFooterImg" src="../icons/fiscal.png" alt="Data fiscal">
-            </div>
-        </section> 
-        
         </div>
         
         <!-- Copyright | Section 7 -->
-        <div class="d-flex align-items-center justify-content-center col-xxl-12 bg-dark text-white">
-            <p>© Natsukashii Manga Store - 2023 | Todos los derechos reservados</p>
+        <div class="d-flex align-items-center justify-content-center col-xxl-12 copyright">
+            <p class="m-0 p-0">© Natsukashii Manga Store - 2023 | Todos los derechos reservados</p>
         </div>
                 
     </footer>

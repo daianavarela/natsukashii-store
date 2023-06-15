@@ -3,7 +3,7 @@ Rosita clarito pastel #FDF4F5
 Lila clarito #DBDFEA
 Lila oscuro #ACB1D6
 Violeta pastel #8294C4
-
+Lavender #e6e6fa 
 Color tipografía común #2c3e50
 */
 
@@ -15,6 +15,10 @@ Color tipografía común #2c3e50
 /*Estilos links*/
 .linksVisual{
     text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
 }
 
 /*Imágenes*/
@@ -128,12 +132,6 @@ nav ul {
     font-size: 42px;
     font-weight: bold;
     color: #6F84BB;
-    /* padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin-right: 25%;
-    margin-left: 15%;
-    text-align: left; */
 }
 
 .title2{
@@ -150,6 +148,13 @@ nav ul {
     margin-left: 25%;
     text-align: right;
     text-align: right;
+}
+
+.subtitle{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #6F84BB;
 }
 
 .subtitle1{
@@ -221,8 +226,8 @@ nav ul {
 /*Background and hero*/
 /*-------------------*/
 
-.navbarBackground{
-    background-color: #FDF4F5;
+.background{
+    background-color: #fffaf0;
 }
 
 .section2Background{
@@ -239,20 +244,23 @@ nav ul {
 }
 
 
-
-
 /*-------------------*/
 /*-Estilos de footer-*/
 /*-------------------*/
-footer p{
+.footer{
     font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    color: #8294C4;
+    color:#6F84BB;
+    background-color: #e6e6fa;
 }
 
-.bg-yellow {
-    background-color: rgb(219, 223, 234)    ;
+.copyright{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color:#6F84BB;
 }
 
 
