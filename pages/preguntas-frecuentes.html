@@ -91,102 +91,225 @@
             <div class="subtitle m-3 p-1">
                 <h3>COMPRAS</h3>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Qué formas de pago puedo aprovechar para realizar mi compra?</strong>
-                <br>
-                Disponemos de los siguientes medios de pago:
-                <br>
-                Durante el proceso de la compra, te vamos a solicitar que confirmes una de las formas de pago entre las
-                disponibles en nuestro
-                sitio.
-                <br>
-                • <strong>MercadoPago:</strong> Podés pagar con cualquiera de estos medios: tarjeta de crédito, tarjeta de débito, dinero en
-                cuenta de Mercado Pago y en efectivo en puntos de pago: Pago Fácil, RapiPago, Cobro Express y Provincia.NET. Los pedidos
-                generados con cualquiera
-                de las opciones de pago en efectivo en puntos de pago se van a procesar una vez que registremos la
-                acreditación del dinero.
-                Si pasados los 6 días hábiles de generado el pedido no se acredita el pago, dicha compra va a ser cancelada.
-                <br>
-                El pago de las compras realizadas en La Comiquería se procesa a través de la mencionada plataforma de cobro.
-                <br>
-                Por tratarse de datos encriptados, nuestra web no registra ni almacena la información de pagos ingresada.
+
+            <!-- Accordion One -->
+            <div class="accordion" id="accordionExample"> 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+                        aria-expanded="true" aria-controls="collapseOne">
+                            <div class="m-3 p-1">    
+                                <strong>¿Qué formas de pago puedo aprovechar para realizar mi compra?</strong>
+                            </div>    
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Disponemos de los siguientes medios de pago:
+                        <br>
+                        Durante el proceso de la compra, te vamos a solicitar que confirmes una de las formas de pago entre las
+                        disponibles en nuestro
+                        sitio.
+                        <br>
+                        • <strong>MercadoPago:</strong> Podés pagar con cualquiera de estos medios: tarjeta de crédito, tarjeta de débito, dinero en
+                        cuenta de Mercado Pago y en efectivo en puntos de pago: Pago Fácil, RapiPago, Cobro Express y Provincia.NET. Los pedidos
+                        generados con cualquiera
+                        de las opciones de pago en efectivo en puntos de pago se van a procesar una vez que registremos la
+                        acreditación del dinero.
+                        Si pasados los 6 días hábiles de generado el pedido no se acredita el pago, dicha compra va a ser cancelada.
+                        <br>
+                        El pago de las compras realizadas en La Comiquería se procesa a través de la mencionada plataforma de cobro.
+                        <br>
+                        Por tratarse de datos encriptados, nuestra web no registra ni almacena la información de pagos ingresada.
+                    </div>
                 </div>
-                <div class="m-3 p-1">
-                    <strong>¿Puedo pagar en cuotas sin interés?</strong>
-                <br>
-                Sólo con las opciones de cuotas sin interés ofrecidas en: https://www.mercadopago.com.ar/cuotas
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Cuál es el costo de envío?</strong>
-                <br>
-                El costo de envío será mostrado en base al total de la compra y ubicación, tanto al mostrar el carrito de
-                compra como en el
-                checkout, en el momento previo a la compra.
-                Superando un cierto monto de compra, el envío es gratis en todo el país. El monto puede consultarse siempre
-                en los banners de la página principal de esta web.
+            
+            <!-- Accordion Two -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="m-3 p-1">
+                            <strong>¿Puedo pagar en cuotas sin interés?</strong>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        Sólo con las opciones de cuotas sin interés ofrecidas en: https://www.mercadopago.com.ar/cuotas
+                    </div>
+                </div>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Cómo se realizan los envíos?</strong>
-                <br>
-                Trabajamos con Pudo (AMBA), Oca (todo el país) y Correo Argentino (sólo para retiro en sus sucursales)
+
+            <!-- Accordion Three -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="m-3 p-1">
+                            <strong>¿Cuál es el costo de envío?</strong>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        El costo de envío será mostrado en base al total de la compra y ubicación, tanto al mostrar el carrito de
+                        compra como en el checkout, en el momento previo a la compra.
+                        Superando un cierto monto de compra, el envío es gratis en todo el país. El monto puede consultarse siempre
+                        en los banners de la página principal de esta web.
+                    </div>
+                </div>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Dónde puedo recibir mi pedido?</strong>
-                <br>
-                Realizamos envíos a toda Argentina. De momento no hacemos envíos internacionales, pero es un objetivo a
-                futuro.
+
+            <!-- Accordion Four -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="m-3 p-1">
+                            <strong>¿Cómo se realizan los envíos?</strong>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        Trabajamos con Pudo (AMBA), Oca (todo el país) y Correo Argentino (sólo para retiro en sus sucursales)
+                    </div>
+                </div>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Cuánto tarda en llegar el pedido?</strong>
-                <br>
-                El tiempo de entrega dependerá del tipo de envío seleccionado y la ciudad donde se viva. En general se
-                recibirá entre 3 y 7
-                días hábiles luego de acreditado el pago (puede ser menos en el AMBA, puede ser más en las zonas más
-                alejadas de AMBA como
-                Tierra del Fuego). Los plazos orientativos son los informados en el carrito de compra al ingresar el código
-                postal del
-                domicilio en el que vas a recibir los productos.
+
+            <!-- Accordion Five -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <div class="m-3 p-1">
+                            <strong>¿Dónde puedo recibir mi pedido?</strong>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        Realizamos envíos a toda Argentina. De momento no hacemos envíos internacionales, pero es un objetivo a
+                        futuro.
+                    </div>
+                </div>
             </div>
+
+            <!-- Accordion Six -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <div class="m-3 p-1">
+                            <strong>¿Cuánto tarda en llegar el pedido?</strong>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        El tiempo de entrega dependerá del tipo de envío seleccionado y la ciudad donde se viva. En general se
+                        recibirá entre 3 y 7
+                        días hábiles luego de acreditado el pago (puede ser menos en el AMBA, puede ser más en las zonas más
+                        alejadas de AMBA como
+                        Tierra del Fuego). Los plazos orientativos son los informados en el carrito de compra al ingresar el código
+                        postal del
+                        domicilio en el que vas a recibir los productos.
+                    </div>
+                </div>
+            </div>
+        </section>          
+
+        <section class="container">
             <div class="subtitle m-3 p-1">
                 <h3>ATENCIÓN AL CLIENTE</h3>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Qué debo hacer si el producto no llega en buen estado?</strong>
-                <br>
-                Ponete en contacto con nosotros a través del Whatsapp que sale en la esquina inferior derecha de la
-                pantalla, por redes
-                sociales (instagram: @lacomiqueria o facebook: www.facebook.com/lacomiqueria.ar ) o por mail a
-                info@natsukashii.com y te lo solucionamos.
+
+            <!-- Accordion One -->
+            <div class="accordion" id="accordionExample"> 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+                        aria-expanded="true" aria-controls="collapseOne">
+                            <div class="m-3 p-1">
+                                <strong>¿Qué debo hacer si el producto no llega en buen estado?</strong>
+                            </div>    
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        Ponete en contacto con nosotros a través del Whatsapp que sale en la esquina inferior derecha de la
+                        pantalla, por redes
+                        sociales (instagram: @lacomiqueria o facebook: www.facebook.com/lacomiqueria.ar ) o por mail a
+                        info@natsukashii.com y te lo solucionamos.
+                    </div>
+                </div>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Puedo solicitar Factura “A”?</strong>
-                <br>
-                Lamentablemente no es posible. Nuestros pedidos son enviados junto a su correspondiente Factura "B" a
-                Consumidor final.
+            
+            <!-- Accordion Two -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="m-3 p-1">
+                            <strong>¿Puedo solicitar Factura “A”?</strong>
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        Lamentablemente no es posible. Nuestros pedidos son enviados junto a su correspondiente Factura "B" a
+                        Consumidor final.
+                    </div>
+                </div>
             </div>
-            <div class="m-3 p-1">
-                <strong>¿Puedo hacer una compra mayorista?</strong>
-                <br>
-                No, sólo hacemos ventas minoristas. Si tu intención es con fines comerciales, te sugerimos que te contactes
-                con el área de
-                distribución de la editorial en la que estés interesado, visitando su web.
+
+            <!-- Accordion Three -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="m-3 p-1">
+                            <strong>¿Puedo hacer una compra mayorista?</strong>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        No, sólo hacemos ventas minoristas. Si tu intención es con fines comerciales, te sugerimos que te contactes
+                        con el área de
+                        distribución de la editorial en la que estés interesado, visitando su web.
+                    </div>
+                </div>
             </div>
-            <div class="m-3 p-1">
-                <strong>Tengo otra consulta para hacerles, ¿cómo puedo contactarlos?</strong>
-                <br>
-                En Natsukashii Manga Store tus mensajes siempre van a ser respondidos por nuestros representantes de ventas.
-                Contactanos a
-                través del Whatsapp que sale en la esquina inferior derecha de la pantalla, por redes sociales (Instagram:
-                @natsukashii_store o
-                Facebook: www.facebook.com/natsukashiimangastore ) o por mail a info@natsukashii.com.ar
-                <br>
-                Podés consultarnos sobre artículos de nuestra web o cualquier tema relacionado con tus pedidos.
-                <br>
-                Nuestro horario de atención prioritaria es de Lunes a Viernes de 07:00 a 15:00 hs, pero fuera de esos días y
-                horarios podés
-                escribirnos igual y vamos a tratar de responderte lo antes posible.
+
+            <!-- Accordion Four -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <div class="m-3 p-1">
+                            <strong>Tengo otra consulta para hacerles, ¿cómo puedo contactarlos?</strong>
+                        </div>
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body m-3 p-1">
+                        En Natsukashii Manga Store tus mensajes siempre van a ser respondidos por nuestros representantes de ventas.
+                        Contactanos a
+                        través del Whatsapp que sale en la esquina inferior derecha de la pantalla, por redes sociales (Instagram:
+                        @natsukashii_store o
+                        Facebook: www.facebook.com/natsukashiimangastore ) o por mail a info@natsukashii.com.ar
+                        <br>
+                        Podés consultarnos sobre artículos de nuestra web o cualquier tema relacionado con tus pedidos.
+                        <br>
+                        Nuestro horario de atención prioritaria es de Lunes a Viernes de 07:00 a 15:00 hs, pero fuera de esos días y
+                        horarios podés
+                        escribirnos igual y vamos a tratar de responderte lo antes posible.
+                    </div>
+                </div>
             </div>
         </section>
+
     </main>
 
 

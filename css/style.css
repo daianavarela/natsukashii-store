@@ -1,5 +1,5 @@
-/*Colores
-Rosita clarito pastel #FDF4F5
+/*Colores posibles a usar:
+Rosa clarito pastel #FDF4F5
 Lila clarito #DBDFEA
 Lila oscuro #ACB1D6
 Violeta pastel #8294C4
@@ -12,7 +12,10 @@ Color tipografía común #2c3e50
     padding: 0;
 }
 
-/*Estilos links*/
+/*-------------------*/
+/*---Estilos links---*/
+/*-------------------*/
+
 .linksVisual{
     text-decoration: none;
 }
@@ -21,7 +24,11 @@ Color tipografía común #2c3e50
     list-style-type: none;
 }
 
-/*Imágenes*/
+
+
+/*-------------------*/
+/*------Imágenes-----*/
+/*-------------------*/
 
 .smallImg{
     width: 200px;
@@ -53,73 +60,6 @@ header {
     top: 0;
     z-index: 1;
 }
-
-/*Logo Bar*/
-.containerLogoBar{
-    background-color: #DBDFEA;
-    display: flex;
-    flex-wrap: wrap;
-}  
-
-.imgLogo{
-    width: 130px;
-    height: 90px;
-    display: flex;
-    justify-content: left;
-}
-
-.searchBox {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.searchBox img {
-    width: 20px;
-    height: 20px;
-    margin: 4px;
-}
-
-.cart img {
-    width: 20px;
-    height: 20px;
-    margin: 0px 5px;
-}
-
-/*-------------------*/
-
-/*Nav Bar*/
-.containerNavBar{
-    background-color: #8294C4;
-    color: #ACB1D6;
-    font-family: 'Varela Round', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    list-style-type: none;
-    width: 100%;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.cajaListItems{
-    width: 165px;
-    height: 15px;
-    padding:5px;
-    margin:0;
-    display:flex;
-}
-
 
 
 
@@ -169,7 +109,6 @@ nav ul {
     margin-top: 1%;
     margin-bottom: 2%;
     margin-left: 15%;
-
     text-align: left;
 }
 
@@ -221,7 +160,6 @@ nav ul {
 
 
 
-
 /*-------------------*/
 /*Background and hero*/
 /*-------------------*/
@@ -244,9 +182,11 @@ nav ul {
 }
 
 
+
 /*-------------------*/
 /*-Estilos de footer-*/
 /*-------------------*/
+
 .footer{
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
@@ -264,41 +204,11 @@ nav ul {
 }
 
 
-/* .footerBackground{
-    background-color: #DBDFEA;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap; 
 
-}
+/*-------------------*/
+/*---Footer images---*/
+/*-------------------*/
 
-footer section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer section div {
-    flex-direction: column;
-}
-
-footer section span{
-    color: #6F84BB;
-}
-
-.centerContent{
-    display: flex;
-    align-items: start;
-}
-
-footer section div h6{
-    display: flex;
-    justify-content: center;
-} */
-
-
-/*Footer images*/
 .smallFooterCards{
     width: 76px;
     height: 45px;
@@ -314,72 +224,4 @@ footer section div h6{
     height: 68px;
 }
 
-
-/*-------------------*/
-/*----Grid footer----*/
-/*-------------------*/
-/* 
-.gridContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 3fr;
-    grid-template-areas: 
-    'masInformacion mediosDePago nuestrasRedes'
-    'contactanos formasDeEnvio dataFiscal'
-    'copyright copyright copyright';
-}
-
-.border{
-    border: 1px solid black;
-}
-
-#masInformacion{
-    grid-area: masInformacion;
-}
-
-#mediosDePago{
-    grid-area: mediosDePago;
-}
-
-#nuestrasRedes{
-    grid-area: nuestrasRedes;
-}
-
-#contactanos{
-    grid-area: contactanos;
-}
-
-#formasDeEnvio{
-    grid-area: formasDeEnvio;
-}
-
-#dataFiscal{
-    grid-area: dataFiscal;
-}
-
-#copyright{
-    grid-area: copyright;
-} */
-
-
-/*-------------------*/
-/*-- Media queries --*/
-/*-------------------*/
-
-/* Mobile */
-@media only screen and (max-width: 500px){
-
-} 
-
-/* Tablet */
-@media only screen and (min-width: 501px) and (max-width: 960px){
-
-}
-
-/* Desktop */
-@media only screen and (min-width: 961px){
-    
-}
-
-/*-------------------*/
 /*-------------------*/
