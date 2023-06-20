@@ -1,0 +1,66 @@
+
+/*-------------------*/
+/* Estilos de header */
+/*-------------------*/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+/*-------------------*/
+/*---Estilos links---*/
+/*-------------------*/
+
+.linksVisual{
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+
+/*-------------------*/
+/*-Estilos de footer-*/
+/*-------------------*/
+
+.footer{
+    font-family: $primaryFont;
+    font-size: 18px;
+    font-weight: bold;
+    color: $gray;
+    background-color: $lavender;
+}
+
+.copyright{
+    font-family: $secondaryFont;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: $violet;
+}
+
+
+/*-------------------*/
+/*---Footer images---*/
+/*-------------------*/
+
+.smallFooter {
+    &Cards {
+        width: 76px;
+        height: 45px;
+    }
+
+    &ShipCards {
+        width: 82px;
+        height: 45px;
+    }
+
+    &Img {
+        width: 45px;
+        height: 68px;
+    }
+}

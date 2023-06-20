@@ -1,0 +1,17 @@
+
+/*-------------------*/
+/*Background and hero*/
+/*-------------------*/
+
+.background{
+    background-color: $yellow;
+}
+
+.heroImage{
+    background-image: linear-gradient(rgba(214, 213, 213, 0.269), rgba(232, 232, 232, 0.285)), url("../images/hero-image.png");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
