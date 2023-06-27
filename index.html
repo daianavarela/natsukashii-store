@@ -15,7 +15,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Favicon -->
-    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./images/favicon.png">    <!-- Animate library --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Title -->
     <title>Home | Natsukashii Store</title>
 </head>
@@ -81,59 +86,72 @@
     </header>
 
     <main class="normalText">
+        
         <section class="heroImage">
             <!-- Title section 1 -->
-            <div class="d-flex align-items-center justify-content-center m-0 p-3">
-                <h1 class="title1">Natsukashii Store</h1>
+            <div class="d-flex align-items-end justify-content-center pt-5">
+                <h1 class="title1 animate__animated animate__pulse">Natsukashii Store</h1>
             </div>
             <!-- Subtitle section 1 -->
-            <div>
+            <div class="d-flex align-items-center justify-content-center">
                 <h2 class="subtitle1">Venta de manga, comics y más</h2>
             </div>
             <!-- Paragraphs section 1 -->
-            <p class="paragraphStyle1">
-                Bienvenido/a a nuestra tienda de manga. Si estás buscando emocionarte y sentir, tu lugar es acá.
-            </p>
-            <p class="paragraphStyle1">
-                Estate atento/a a próximas novedades porque estaremos sumando más títulos de manga, comics y
-                merchandising
-                de tus series favoritas.
-            </p>
-            <p class="paragraphStyle1">
-                Conocé nuestro más amplio catálogo en manga en nuestra tienda virtual haciendo clic en el siguiente
-                botón.
-            </p>
+            <section class="container-fluid" data-aos="fade-right" data-aos-duration="1500"> 
+                <div class="align-items-center justify-content-center mr-3 ml-3">
+                    <p class="paragraphStyle1">
+                        Bienvenido/a a nuestra tienda de manga. Si estás buscando emocionarte y sentir, tu lugar es acá.
+                    </p>
+                    <p class="paragraphStyle1">
+                        Estate atento/a a próximas novedades porque estaremos sumando más títulos de manga, comics y
+                        merchandising
+                        de tus series favoritas.
+                    </p>
+                    <p class="paragraphStyle1">
+                        Conocé nuestro más amplio catálogo en manga en nuestra tienda virtual haciendo clic en el siguiente
+                        botón.
+                    </p>
+                </div>    
 
-            <!--Button-->
-            <div>
-                <button class="button">
-                    <a class="linksVisual" href="./pages/productos.html">Ir a la tienda virtual</a>
-                </button>
-            </div>
+                <!--Button-->
+                <div>
+                    <button class="button">
+                        <a class="linksVisual" href="./pages/productos.html">Ir a la tienda virtual</a>
+                    </button>
+                </div>
+            </section>
         </section>
 
         <section>
-            <!-- Title section 2 -->
-            <h2 class="title2">¿De dónde viene la palabra "Natsukashii?</h2>
+            <section class="container-fluid" data-aos="fade-right" data-aos-duration="1500">
+                <div class="align-items-center justify-content-center">
+                    <!-- Title section 2 -->
+                <h2 class="title2">¿De dónde viene la palabra "Natsukashii?</h2>
 
-            <!-- Paragraphs section 2 -->
-            <p class="paragraphStyle2">
-                La palabra "natsukashii" es de origen japonés. Significa literalmente "nostalgia feliz". En otras
-                palabras,
-                es el instante en el que la memoria de repente te transporta a un bello recuerdo que te llena de alegría
-                y añoranza.
-            </p>
-            <p class="paragraphStyle2">
-                Eso es lo que nos pasa cada vez que leemos un manga que conocíamos desde pequeños a través de las series
-                animadas que tanto nos marcaron.
-            </p>
-            <p class="paragraphStyle2">
-                El propósito de "Natsukashii Manga Store" es compartir ese sentimiento con vos a través de los mangas de
-                nuestros catálogos, hacerte "re-vivir" momentos felices de tu niñez o adolescencia con
-                contenido y lectura de calidad.
-            </p>
+                <!-- Paragraphs section 2 -->
+                <p class="paragraphStyle2">
+                    La palabra "natsukashii" es de origen japonés. Significa literalmente "nostalgia feliz". En otras
+                    palabras,
+                    es el instante en el que la memoria de repente te transporta a un bello recuerdo que te llena de alegría
+                    y añoranza.
+                </p>
+                <p class="paragraphStyle2">
+                    Eso es lo que nos pasa cada vez que leemos un manga que conocíamos desde pequeños a través de las series
+                    animadas que tanto nos marcaron.
+                </p>
+                <p class="paragraphStyle2">
+                    El propósito de "Natsukashii Manga Store" es compartir ese sentimiento con vos a través de los mangas de
+                    nuestros catálogos, hacerte "re-vivir" momentos felices de tu niñez o adolescencia con
+                    contenido y lectura de calidad.
+                </p>
+                </div>
+            </section>
             <!-- Image -->
-            <div class="m-3 p-2">
+            <div class="m-3 p-2 positionImgCenter" data-aos="fade-up" data-aos-duration="1500"> 
+                <!-- Arreglar imagen -->
+                <img src="./images/comics.png" alt="Animé" class="mediumImg">
+            </div>
+            <div class="m-3 p-2 positionImgCenter">
                 <img src="./images/japanese-flower-vector2.png" alt="Flor japonesa" class="smallImg">
             </div>
 
@@ -147,7 +165,7 @@
             <!-- Más información | Section 1 -->
             <section class="d-flex align-items-center justify-content-center row col-xxl-4 order-0 p-2">
                 
-                <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
+                <div class="d-flex align-items-center justify-content-center col-xxl-12">
                     <p class="d-flex align-items-center justify-content-center m-2">MÁS INFORMACIÓN</p>
                 </div>
                 <div class="d-flex align-items-center justify-content-center col-xxl-12" style="width: 20rem;">
@@ -281,9 +299,14 @@
                 
     </footer>
 
+    <!-- Script BootStrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
+    
+    <!-- Script AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
