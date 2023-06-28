@@ -30,7 +30,6 @@
         margin-bottom: 5%;
         margin-left: 25%;
         text-align: right;
-        text-align: right;
     }
 }
 
@@ -62,14 +61,17 @@
     font-size: $normalFontSize;
     font-weight: bolder;
     color: $gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
     
     &1{
         font-family: $secondaryFont;
         font-size: $normalFontSize;
         font-weight: bolder;
         color: $gray;
-        padding-left: 16%;
-        padding-right: 16%;
+        max-width: 80%;
         text-align: left;
     }
 
@@ -78,12 +80,7 @@
         font-size: $normalFontSize;
         font-weight: bolder;
         color: $gray;
-        padding-right: 1%;
-        padding-left: 16%;
-        margin-top: 5px;
-        margin-right: 16%;
-        margin-bottom: 5px;
-        margin-left: 16%;
+        max-width: 80%;
         text-align: right; 
     }
 }
