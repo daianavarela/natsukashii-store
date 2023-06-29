@@ -95,3 +95,18 @@
       display: none;
     }
   }
+
+  .card {
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.05);
+    }
+  }
+
+  .rounded {
+    transition: all 0.3s;
+    opacity: 0.8;
+    &:hover {
+        opacity: 1;
+    }
+  }

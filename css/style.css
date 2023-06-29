@@ -293,6 +293,21 @@ header {
     display: none;
   }
 }
+.card {
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.rounded {
+  transition: all 0.3s;
+  opacity: 0.8;
+}
+.rounded:hover {
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
