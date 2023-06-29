@@ -86,7 +86,7 @@
             <!-- Título -->
             <div class="d-flex align-items-center justify-content-center m-3 p-3">    
                 <h1 class="title1">Contactanos</h1>
-        </div>    
+            </div>    
         </section>
 
         <section>
@@ -95,23 +95,31 @@
                     <h3>Informes</h3>
                 </div>
                 <div>
-                    Teléfono:
-                    <br>
-                    11 5032-xxxx
-                    <br>
+                    <p class="m-0">
+                        Teléfono:
+                    </p>    
+                    <p>
+                        11 5032-xxxx
+                    </p>
                 </div>
                 <div>
-                    Email:
-                    <br>
-                    contacto@natsukashii.ar
-                    <br>
+                    <p class="m-0">
+                        Email:
+                    </p>
+                    <p>
+                        contacto@natsukashii.ar
+                    </p>
                 </div>
                 <div>
-                    Horarios de atención:
-                    <br>
-                    Lunes a Viernes de 9 a 21:30 hs
-                    <br>
-                    Sábados de 9 a 16 hs
+                    <p class="m-0">
+                        Horarios de atención:
+                    </p>
+                    <p class="m-0">
+                        Lunes a Viernes de 9 a 21:30 hs
+                    </p>
+                    <p>
+                        Sábados de 9 a 16 hs
+                    </p>    
                 </div>
             </div>    
         </section>
@@ -122,40 +130,35 @@
                     <h3>Por favor, completá el siguiente formulario y nos contactaremos a la brevedad:</h3>
                 </div>
 
-                <div>
-                    <form action="form.php" method="POST">
-                        <label for="">Nombre completo (*)</label>
-                        <br>
-                        <input type="text" name="" id="">
-                        <br>
-                        <br>
-                        <label for="">Email (*)</label>
-                        <br>
-                        <input type="text" name="" id="">
-                        <br>
-                        <br>
-                        <label for="">Teléfono (*)</label>
-                        <br>
-                        <input type="text" name="" id="">
-                        <br>
-                        <br>
-                        <label for="">Dirección (*)</label>
-                        <br>
-                        <input type="text" name="" id="">
-                        <br>
-                        <br>
-                        <label for="">Asunto (*)</label>
-                        <br>
-                        <input type="text" name="" id="">
-                        <br>
-                        <br>
-                        <label for="">Mensaje (*)</label>
-                        <br>
-                        <textarea name="" id="" cols="70" rows="8"></textarea>
-                        <br>
-                        <br>
-                        <input type="submit" value="Enviar">
-                    </form>
+                <form>
+                    <div class="container-fluid form p-4">
+                        <div class="mb-3">
+                            <label for="" alt="Nombre completo">Nombre completo (*)</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" alt="Email">Dirección de email (*)</label>
+                        <input type="email" class="form-control">
+                        <div id="emailHelp" class="form-text">Nunca compartiremos tu email con nadie.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" alt="Número de teléfono">Teléfono (*)</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="" alt="Número de teléfono">Asunto (*)</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">Mensaje (*)</label>
+                            <textarea name="" class="form-control"></textarea>
+                        </div>
+                        <div class="pt-3">
+                            <button type="submit" class="button">Enviar</button>
+                        </div>
+                    </div>    
+                </form>
+
                 </div>
             </div>        
         </section>

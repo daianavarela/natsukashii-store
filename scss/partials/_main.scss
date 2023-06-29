@@ -1,5 +1,4 @@
 
-
 /*-------------------*/
 /*- Estilos de main -*/
 /*-------------------*/
@@ -10,16 +9,12 @@
     font-weight: bold;
 
     &1{
-        font-family: $primaryFont;
-        font-size: $titleFontSize;
-        font-weight: bold;
+        @extend .title; 
         color: $violet;
     }
 
     &2{
-        font-family: $primaryFont;
-        font-size: $titleFontSize;
-        font-weight: bold;
+        @extend .title;
         color: $violet;
         text-align: right;
     }
@@ -32,10 +27,7 @@
     color: $violet;
 
     &1{
-        font-family: $primaryFont;
-        font-size: $subtitleFontSize;
-        font-weight: lighter;
-        color: $violet;
+        @extend .subtitle;
         margin: 1%;
         padding: 1%;
         text-align: center;
@@ -59,75 +51,13 @@
 
     
     &1{
-        font-family: $secondaryFont;
-        font-size: $normalFontSize;
-        font-weight: bolder;
-        color: $gray;
-       
+        @extend .paragraphStyle;
         text-align: left;
     }
 
     &2{
-        font-family: $secondaryFont;
-        font-size: $normalFontSize;
-        font-weight: bolder;
-        color: $gray;
+        @extend .paragraphStyle;
         text-align: right; 
     }
 }
 
-.button{
-    text-decoration: none;
-    position: relative;
-    border: none;
-    font-size: $normalFontSize;
-    font-family: $secondaryFont;
-    color: $white;
-    width: 7em;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    background: linear-gradient(90deg,$lavender, $violet, $lightviolet, $lavender);
-    background-size: 300%;
-    border-radius: 30px;
-    z-index: 1;
-
-    &:hover{
-        animation: ani 8s linear infinite;
-        border: none;
-
-        &:before{
-            filter: blur(20px);
-        }
-    }
-
-    &:before{
-        content: '';
-        position: absolute;
-        top: -5px;
-        left: -5px;
-        right: -5px;
-        bottom: -5px;
-        z-index: -1;
-        background: linear-gradient(90deg,$lavender, $violet, $lightviolet, $lavender);
-        background-size: 500%;
-        border-radius: 35px;
-        transition: 1s;
-    }
-    
-    &:active{
-        background: linear-gradient(32deg,$lavender, $violet, $lightviolet, $lavender);
-    }
-  }
-  
-  @keyframes ani{
-    0% {
-      background-position: 0%;
-    }
-  
-    100% {
-      background-position: 400%;
-    }
-  }
-  
-  
