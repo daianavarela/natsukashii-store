@@ -2,11 +2,18 @@
 /*-------------------*/
 /*- Estilos de main -*/
 /*-------------------*/
+@mixin apply-font($family, $size, $isBold) {
+    font-family: $family;
+    font-size: $size;
+    @if ($isBold) {
+        font-weight: bold;
+    }
+} 
+
+
 
 .title{
-    font-family: $primaryFont;
-    font-size: $titleFontSize;
-    font-weight: bold;
+    @include apply-font($primaryFont, $titleFontSize, true);
 
     &1{
         @extend .title; 
@@ -21,8 +28,7 @@
 }
 
 .subtitle{
-    font-family: $primaryFont;
-    font-size: $subtitleFontSize;
+    @include apply-font($primaryFont, $subtitleFontSize, false);
     font-weight: lighter;
     color: $violet;
 
