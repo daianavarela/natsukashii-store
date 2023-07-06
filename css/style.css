@@ -103,6 +103,12 @@ header {
   text-align: right;
 }
 
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #8294C4;
+}
+
 /*-------------------*/
 /*-Estilos de botón--*/
 /*-------------------*/
